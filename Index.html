@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rock Paper Scissors</title>
+    <script src="script.js"></script>
+    <style>
+        /* Add your CSS here */
+    </style>
+</head>
+<body onload="initGame()">
+    <h1>Rock Paper Scissors Game</h1>
+
+    <p>Wins: <span id="wins">0</span></p>
+    <p>Losses: <span id="losses">0</span></p>
+    <p>Ties: <span id="ties">0</span></p>
+
+    <p id="message"></p>
+
+    <button onclick="playGame('rock')">Rock</button>
+    <button onclick="playGame('paper')">Paper</button>
+    <button onclick="playGame('scissors')">Scissors</button>
+</body>
+</html>
